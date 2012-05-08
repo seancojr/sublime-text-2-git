@@ -730,6 +730,11 @@ class GitCheckoutCommand(GitTextCommand):
         self.run_command(['git', 'checkout', self.get_file_name()])
 
 
+class GitFetchCommand(GitWindowCommand):
+    def run(self):
+        self.run_command(['git', 'fetch'], callback=self.panel)
+
+
 class GitPullCommand(GitWindowCommand):
     def run(self):
         self.run_command(['git', 'pull'], callback=self.panel)
