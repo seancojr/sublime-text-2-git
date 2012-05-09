@@ -7,7 +7,7 @@
 	,"git_command": false
 
 	// point this the installation location of git-flow
-	,"git_flow_command": "C:\\Program Files\\Git\bin\\git-flow"
+	,"git_flow_command": "C:\\Program Files\\Git\\bin\\git-flow"
 
 	// use the panel for diff output, rather than a new scratch window (new tab)
 	,"diff_panel": false
